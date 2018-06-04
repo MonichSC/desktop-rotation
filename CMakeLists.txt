@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 2.6)
+
+message(STATUS "Constructing project")
+project (desktop-rotation)
+
+include(src/CMakeLists.txt)
+include(cmake/Options.cmake)
+
+
+

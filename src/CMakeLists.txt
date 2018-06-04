@@ -1,0 +1,5 @@
+message(STATUS "Gathering project files")
+file(GLOB_RECURSE INCS "src/*.hpp")
+file(GLOB_RECURSE SRCS "src/*.cpp")
+add_executable(desktop-rotation ${SRCS} ${INCS})
+message(STATUS "Finished gathering project files")
